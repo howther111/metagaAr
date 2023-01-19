@@ -127,7 +127,7 @@ class imgToBoard:
                             if oldMarkerInfo.x_zahyo != x_zahyo or oldMarkerInfo.y_zahyo != y_zahyo:
                                 porn_dict[point.id[0]].x_zahyo = x_zahyo
                                 porn_dict[point.id[0]].y_zahyo = y_zahyo
-                                print("id = " + str(point.id[0]) + " zahyo = " + str(x_zahyo) + "-" + num2alpha(y_zahyo))
+                                print("id = " + str(point.id[0]) + ", zahyo = " + str(x_zahyo) + "-" + num2alpha(y_zahyo))
                                 sscell_x = "B" + (str(point.id[0] - 2))
                                 sscell_y = "C" + (str(point.id[0] - 2))
                                 self.ar_sheet.update(sscell_x, x_zahyo)
