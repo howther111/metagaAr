@@ -1,5 +1,5 @@
-import arreadss9
+import arreadss10
 import settings
 
-instance = arreadss9.imgToBoard(spread_sheet_url=settings.spread_sheet_url)
+instance = arreadss10.imgToBoard(spread_sheet_url=settings.spread_sheet_url)
 instance.run()
